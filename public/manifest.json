@@ -1,0 +1,92 @@
+{
+	"name"				: "Lina Dates",
+	"short_name"		: "Lina",
+	"description"		: "A dating application that help singles to find their potential matche",
+	"start_url"			: "/home",
+	"scope"				: "/",
+	"lang"				: "en",
+	"orientation"		: "portrait",
+	"display"			: "standalone",
+	"background_color"	: "darkgreen",
+	"theme_color"		: "darkgreen",
+	"shortcuts"			: [
+		{
+			"name"			: "Home",
+			"url"			: "/home",
+			"description"	: "main activity",
+			"icons"			: [{
+				"src"	: "/drawables/android/mipmap-xhdpi/ic_launcher.png",
+				"sizes"	: "96x96"
+			}]
+			
+		},
+		{
+			"name"			: "Settings",
+			"url"			: "/home",
+			"description"	: "go to app settings and profile",
+			"icons"			: [{
+				"src"	: "/drawables/android/mipmap-xhdpi/ic_launcher.png",
+				"sizes"	: "96x96"
+			}]
+		},
+		{
+			"name"			: "Match",
+			"url"			: "/home",
+			"description"	: "Suggested matches and love",
+			"icons"			: [{
+				"src"	: "/drawables/android/mipmap-xhdpi/ic_launcher.png",
+				"sizes"	: "96x96"
+			}]
+		},
+		{
+			"name"			: "Chats",
+			"url"			: "/home",
+			"description"	: "go to messenger",
+			"icons"			: [{
+				"src"	: "/drawables/android/mipmap-xhdpi/ic_launcher.png",
+				"sizes"	: "96x96"
+			}]
+		},
+		{
+			"name"			: "Search",
+			"url"			: "/home",
+			"description"	: "search people nearby",
+			"icons"			: [{
+				"src"	: "/drawables/android/mipmap-xhdpi/ic_launcher.png",
+				"sizes"	: "96x96"
+			}]
+		}
+	],
+	
+	"icons"				: [
+		{
+			"src"		: "/drawables/ios/iTunesArtwork@1x.png",
+			"type"		: "image/png",
+			"sizes"		: "512x512"
+		},
+		{
+			"src"		: "/drawables/ios/appicons/icon-app-60x60@2x.png",
+			"type"		: "image/png",
+			"sizes"		: "120x120"
+		},
+		{
+			"src"		: "/drawables/android/mipmap-xhdpi/ic_launcher.png",
+			"type"		: "image/png",
+			"sizes"		: "96x96"
+		}
+	],
+	"screenshots"		: [
+		{
+			"src"		: "/drawables/Login-mobile_login_ui.png",
+			"type"		: "image/png",
+			"sizes"		: "364x573"
+		},
+		{
+			"src"		: "/drawables/Login-mobile_registration_ui.png",
+			"type"		: "image/png",
+			"sizes"		: "364x573"
+		}
+	]
+}
+
+
